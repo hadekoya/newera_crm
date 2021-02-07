@@ -1,5 +1,5 @@
 body {
-  background: #c3e0e5; /* Set background color for body to justify transparency of Jumbotron */
+  background: white; /* Set background color for body to justify transparency of Jumbotron */
 }
 
 .navbar {
@@ -10,7 +10,10 @@ footer {
   background-color: #bfd7ed;
   padding: 5px 0;
 }
-
+.site-footer {
+  background-color: #bfd7ed;
+  padding: 20px 0;
+}
 a,
 a:hover {
   color: inherit;
@@ -18,8 +21,35 @@ a:hover {
 }
 
 .jumbotron {
+  padding: 10px 0;
   background: #5585af;
-  /*  background-image: url("../img/nathan-dumlao-As8zq82LBpw-unsplash\ \(1\).jpg");
+  background-image: url("../img/jumbo-3.png");
   background-size: cover;
-  height: 100%;*/
+  background-repeat: no-repeat;
+  height: 100%;
+  margin-bottom: 1px;
+  /*   background: #5585af;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.6) 0%,
+      rgba(255, 255, 255, 0.6) 100%
+    ),
+    url("../img/logan-jumbo-2.png");
+
+  background-attachment: static;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;*/
+}
+
+.carousel {
+  background: solid #5637dd;
+}
+.carousel-item .img-fluid {
+  width: 50%;
+  margin: auto;
+}
+.carousel-item a {
+  display: block;
+  width: 100%;
 }
