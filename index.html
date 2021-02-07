@@ -4,7 +4,6 @@
     <!-- Required meta tags always come first -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
     <link
       rel="stylesheet"
       href="node_modules/bootstrap/dist/css/bootstrap.min.css"
@@ -18,31 +17,28 @@
       href="node_modules/bootstrap-social/bootstrap-social.css"
     />
     <link rel="stylesheet" href="css/styles.css" />
-
-    <title>New Era - CRM for Businesses</title>
+    <title>Empyrean Cakes: Heavenly delight on earth!!!</title>
   </head>
-
   <body>
     <!--
-    <header class="jumbotron jumbotron-fluid">
-        <div class="container">
-          <div class="row">
-            <div class="col-4 col-sm-3 col-md-2 align-self-center">
-            <img src="img/logo.png" class="img-fluid" />
-            </div>
-            <div class="col">
-              <h1>New Era</h1>
-              <h2>CRM for small business</h2>
-            </div>
-  
-          </div>
-        </div>
-      </header>-->
+         <header class="jumbotron jumbotron-fluid">
+             <div class="container">
+               <div class="row">
+                 <div class="col-4 col-sm-3 col-md-2 align-self-center">
+                 <img src="img/logo.png" class="img-fluid" />
+                 </div>
+                 <div class="col">
+                   <h1>New Era</h1>
+                   <h2>CRM for small business</h2>
+                 </div>
+         
+               </div>
+             </div>
+           </header>-->
     <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
       <a class="navbar-brand" href="#"
         ><img src="img/empyrean.png" width="200"
       /></a>
-
       <button
         class="navbar-toggler"
         type="button"
@@ -54,7 +50,6 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
@@ -79,15 +74,90 @@
     </nav>
     <div class="jumbotron jumbotron-fluid">
       <div class="container">
-        <div class="row">
-          <div class="col-6 offset-1">
-            <img src="img/logan-wide.jpg" class="img-fluid rounded" />
+        <div class="row row-content">
+          <div class="col-md-7">
+            <!-- <img src="img/logan-wide.jpg" class="img-fluid rounded" /> -->
+            <div id="homeCarousel" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li
+                  data-target="#homeCarousel"
+                  data-slide-to="0"
+                  class="active"
+                ></li>
+                <li data-target="#homeCarousel" data-slide-to="1"></li>
+                <li data-target="#homeCarousel" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    class="d-block w-100 rounded"
+                    src="img/logan-item.png"
+                    alt="Breadcrumb Trail Campground"
+                  />
+                  <!-- <div class="carousel-caption">
+                              <h3>Breadcrumb Trail Campground</h3>
+                              <p class="d-none d-sm-block">
+                                Let Nucamp be your guide to this off-the-beaten-path,
+                                hike-in-only campground.
+                              </p>
+                              </div> -->
+                </div>
+                <div class="carousel-item">
+                  <img
+                    class="d-block w-100 rounded"
+                    src="img/kelly-item.png"
+                    alt="React Lake Campground"
+                  />
+                  <!-- <div class="carousel-caption">
+                              <h3>React Lake</h3>
+                              <p class="d-none d-sm-block">
+                                Nestled in the foothills of the Chrome Mountains, this
+                                campground on the shores of the pristine React Lake is a
+                                favorite for fly fishers.
+                              </p>
+                              </div> -->
+                </div>
+                <div class="carousel-item">
+                  <img
+                    class="d-block w-100 rounded"
+                    src="img/deva-item.png"
+                    alt="Chrome River Campground"
+                  />
+                  <!-- <div class="carousel-caption">
+                              <h3>Chrome River</h3>
+                              <p class="d-none d-sm-block">
+                                Spend a few sunny days and starry nights beneath a canopy
+                                of old-growth firs at this enchanting spot by the Chrome
+                                River.
+                              </p>
+                              </div> -->
+                </div>
+              </div>
+              <a
+                class="carousel-control-prev"
+                href="#homeCarousel"
+                role="button"
+                data-slide="prev"
+              >
+                <span class="carousel-control-prev-icon"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a
+                class="carousel-control-next"
+                href="#homeCarousel"
+                role="button"
+                data-slide="next"
+              >
+                <span class="carousel-control-next-icon"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
           </div>
-          <div class="col-4">
-            <h1 class="display-4">Hello, world!</h1>
+          <div class="col-md-3">
+            <h2>Empyrean Cakes</h2>
             <p>
-              It uses utility classes for typography and spacing to space
-              content out within the larger container.
+              Heavenly delight at your doorstep! Let us bring our exquisite
+              treats to your event leaving yours guest with great memories.
             </p>
             <p class="lead">
               <a class="btn btn-primary btn-lg" href="#" role="button"
@@ -98,9 +168,73 @@
         </div>
       </div>
     </div>
-
-    <div class="row">
-      <div class="col-5 offset-2">
+    <div class="container-fluid p-3" style="background-color: #f4f6f9">
+      <div class="row row-content" style="margin-bottom: 10px">
+        <div class="col-11 border border-warning rounded p-3 mx-auto">
+          <span>
+            <b>Note</b>: COVID restriction in place. Please make appointment
+            before visiting store
+          </span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-3">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">
+                <i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i
+                >Location
+              </h5>
+              <p class="card-text">
+                123 Main St, <br />
+                Livingston, New Jersey<br />
+                07039
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">
+                <i class="fa fa-clock-o fa-fw w3-xxlarge w3-margin-right"></i
+                >Hours
+              </h5>
+              <p class="card-text">
+                Monday - Friday: 9am - 4pm <br />
+                Saturday: 10am - 1pm<br />
+                Sunday: Closed
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">
+                <i class="fa fa-comment fa-fw w3-xxlarge w3-margin-right"></i
+                >Contact
+              </h5>
+              <p class="card-text">
+                <a role="button" class="btn btn-link" href="tel:+19735551234"
+                  ><i class="fa fa-phone"></i> 1-973-555-1234</a
+                >
+                <a
+                  role="button"
+                  class="btn btn-link"
+                  href="mailto:info@empyreancakes.xyzß"
+                  ><i class="fa fa-envelope-o"></i> info@empyreancakes.xyz</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+    </div>
+    <div class="row row-content p-3">
+      <div class="col-5 offset-1">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem
         accusantium commodi dicta maiores maxime reiciendis quia voluptatem
         ipsam facere laborum fugiat aperiam assumenda tempore temporibus cum
@@ -108,75 +242,32 @@
         consectetur adipisicing elit. Maiores non repellat ad repellendus. Eaque
         blanditiis inventore totam veritatis, reprehenderit dignissimos fugiat?
         Soluta, fugiat in! Molestiae non repudiandae aut. Et, earum. Lorem ipsum
-        dolor sit amet consectetur adipisicing elit. Facere fugit a ea et
-        quisquam consequatur maxime, libero ab ad incidunt autem excepturi.
-        Repudiandae recusandae amet ipsum tenetur eligendi quidem nesciunt!
+        dolor sit amet consectetur adipisicing elit.
       </div>
-      <div class="col-4">
-        <img src="img/kelly-wide.jpg" class="img-fluid rounded" />
+      <div class="col-5">
+        <img src="img/jibbs-item.png" class="img-fluid rounded d-block w-100" />
       </div>
       <div class="col"></div>
     </div>
-    <h2 class="display-4">Featured Products</h2>
-    <div class="row row-content">
-      <div class="col-8 mx-auto">
-        <div
-          id="carouselExampleIndicators"
-          class="carousel slide"
-          data-ride="carousel"
-        >
-          <ol class="carousel-indicators">
-            <li
-              data-target="#carouselExampleIndicators"
-              data-slide-to="0"
-              class="active"
-            ></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img
-                class="d-block w-25"
-                src="img/deva-williamson-S2jw81lfrG0-unsplash.jpg"
-                alt="First slide"
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                class="d-block w-25"
-                src="img/logan-ellzey-tOKVj3FOUbA-unsplash.jpg"
-                alt="Second slide"
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                class="d-block w-25"
-                src="img/nathan-dumlao-As8zq82LBpw-unsplash.jpg"
-                alt="Third slide"
-              />
-            </div>
-          </div>
-          <a
-            class="carousel-control-prev"
-            href="#carouselExampleIndicators"
-            role="button"
-            data-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a
-            class="carousel-control-next"
-            href="#carouselExampleIndicators"
-            role="button"
-            data-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
+
+    <div class="row row-content p-3">
+      <div class="col-5 offset-1">
+        <img
+          src="img/wedding-cake.png"
+          class="img-fluid rounded d-block w-100"
+        />
       </div>
+      <div class="col-5">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem
+        accusantium commodi dicta maiores maxime reiciendis quia voluptatem
+        ipsam facere laborum fugiat aperiam assumenda tempore temporibus cum
+        accusamus eligendi, consequatur beatae. Lorem ipsum dolor sit amet
+        consectetur adipisicing elit. Maiores non repellat ad repellendus. Eaque
+        blanditiis inventore totam veritatis, reprehenderit dignissimos fugiat?
+        Soluta, fugiat in! Molestiae non repudiandae aut. Et, earum. Lorem ipsum
+        dolor sit amet consectetur adipisicing elit.
+      </div>
+      <div class="col"></div>
     </div>
 
     <footer class="site-footer">
@@ -187,31 +278,32 @@
           <a
             class="btn btn-social-icon btn-instagram"
             href="http://instagram.com/"
-            ><i class="fa fa-instagram fa-2x"></i
-          ></a>
+          >
+            <i class="fa fa-instagram fa-2x"></i>
+          </a>
           <a
             class="btn btn-social-icon btn-facebook"
             href="http://facebook.com/"
-            ><i class="fa fa-facebook fa-2x"></i
-          ></a>
-          <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"
-            ><i class="fa fa-twitter fa-2x"></i
-          ></a>
-          <a class="btn btn-social-icon btn-google" href="http://youtube.com/"
-            ><i class="fa fa-youtube fa-2x"></i
-          ></a>
+          >
+            <i class="fa fa-facebook fa-2x"></i>
+          </a>
+          <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/">
+            <i class="fa fa-twitter fa-2x"></i>
+          </a>
+          <a class="btn btn-social-icon btn-google" href="http://youtube.com/">
+            <i class="fa fa-youtube fa-2x"></i>
+          </a>
         </div>
-
         <div class="col-sm-4 text-center">
           <h5>Contact</h5>
-          <a role="button" class="btn btn-link" href="tel:+12065551234"
-            ><i class="fa fa-phone"></i> 1-206-555-1234</a
+          <a role="button" class="btn btn-link" href="tel:+19735551234"
+            ><i class="fa fa-phone"></i> 1-973-555-1234</a
           >
           <a
             role="button"
             class="btn btn-link"
-            href="mailto:campsites@nucamp.co"
-            ><i class="fa fa-envelope-o"></i> campsites@nucamp.co</a
+            href="mailto:info@empyreancakes.xyz"
+            ><i class="fa fa-envelope-o"></i> info@empyreancakes.xyz</a
           >
         </div>
       </div>
