@@ -4,14 +4,14 @@ $(function () {
     $(".list-group-item").removeClass("active");
     $(this).addClass("active");
 
-    let cake_category = $(this).attr("value");
-    console.log(cake_category);
+    let cakecategory = $(this).attr("value");
+    console.log(cakecategory);
 
-    if (cake_category == "view all") {
+    if (cakecategory == "view all") {
       $(".card").parent().css("display", "block");
     } else {
       $(".card").parent().css("display", "none");
-      filter = ".card[category='" + cake_category + "']";
+      filter = ".card[category='" + cakecategory + "']";
       $(filter).parent().css("display", "block");
     }
   });
