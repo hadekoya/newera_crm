@@ -1,4 +1,5 @@
 body {
+  height: 100%;
   background: white; /* Set background color for body to justify transparency of Jumbotron */
 }
 
@@ -52,4 +53,13 @@ a:hover {
 .carousel-item a {
   display: block;
   width: 100%;
+}
+
+.cardheight {
+  height: 158px;
+}
+.calendly-inline-widget {
+  border-radius: 5px 5px 0px 0px;
+  overflow: hidden;
+  margin: 20px 20px 0 20px;
 }
