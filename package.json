@@ -4,6 +4,11 @@
   "description": "",
   "main": "index.html",
   "scripts": {
+    "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
+    "imagemin": "imagemin img/* -o dist/img",
+    "clean": "rimraf dist",
+    "usemin": "usemin contact.html -d dist --htmlmin -o dist/contact.html && usemin about.html -d dist --htmlmin -o dist/about.html && usemin index.html -d dist --htmlmin -o dist/index.html && usemin appointment.html -d dist --htmlmin -o dist/appointment.html && usemin catalog.html -d dist --htmlmin -o dist/catalog.html",
+    "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lite": "lite-server",
     "start": "npm run lite"
@@ -19,7 +24,11 @@
   },
   "homepage": "https://github.com/hadekoya/newera_crm#readme",
   "devDependencies": {
-    "lite-server": "^2.5.4"
+    "copyfiles": "^2.2.0",
+    "imagemin-cli": "^5.1.0",
+    "lite-server": "^2.5.4",
+    "rimraf": "^3.0.2",
+    "usemin-cli": "^0.6.0"
   },
   "dependencies": {
     "bootstrap": "^4.5.2",
