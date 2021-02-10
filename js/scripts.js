@@ -4,7 +4,7 @@ $(function () {
     $(".list-group-item").removeClass("active");
     $(this).addClass("active");
 
-    let cakecategory = $(this).attr("value");
+    var cakecategory = $(this).attr("value");
     console.log(cakecategory);
 
     if (cakecategory == "view all") {
